@@ -37,10 +37,11 @@ const HeroContent = () => {
 
         <motion.button
         variants={slideInFromTop}
-        className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60'>
+        className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly'>
         {/* <AiOutlineCoffee className='text-white mr-[10px] h- w-10'/> */}
-        <h1 className='Welcome-text text-[15px] mr-[10px] sourcecode'>Join Discord</h1>
-
+        <img src="discord.svg" alt="" className='h-15 w-5  '/>
+        <h1 className='Welcome-text text-[15px] sourcecode '>Join Discord</h1>
+        
         </motion.button>
         {/* </motion.div> */}
       </div>
