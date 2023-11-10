@@ -69,38 +69,37 @@ const HeroContent = () => {
         <motion.a
         variants={slideInFromLeft(1)}
         className='text-lg text-gray-400 my-5-w-[500px] sourcecode'>
-            {/* Register Now */}
+
         </motion.a>
-        <motion.div className="mt-[-50px]" variants={slideInFromLeft(0.8)}>
-        <h1 className="text-[1.6rem] text-gray-400 ml-3 sourcecode uppercase">
+        <motion.div className="mt-[-50px] Welcome-text" variants={slideInFromLeft(0.8)}>
+        <h1 className="text-[1.7rem] text-gray-400 ml-3  uppercase">
           Hackathon Starts In
         </h1>
         <div className="flex flex-row justify-around w-80 left-80 mt-[-20px]">
-          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] sourcecode">
+          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] ">
             <p className="text-[3.5rem]">{timerDays}</p>
             <p className="text-[1rem] mt-[-5px]">days</p>
           </section>
-          <span className="text-[2rem] text-gray-400 my-5 max-w-[600px] sourcecode">:</span>
-          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] sourcecode">
+          <span className="text-[2rem] text-gray-400 my-5 max-w-[600px] ">:</span>
+          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] ">
             <p className="text-[3.5rem]">{timerHours}</p>
             <p className="text-[1rem] mt-[-5px]">hours</p>
           </section>
-          <span className="text-[2rem] text-gray-400 my-5 max-w-[600px] sourcecode">:</span>
-          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] sourcecode">
+          <span className="text-[2rem] text-gray-400 my-5 max-w-[600px] ">:</span>
+          <section className="text-[2rem] text-gray-400 my-5 max-w-[600px] ">
            <p className="text-[3.5rem]">{timerMinutes}</p>
             <p className="text-[1rem] mt-[-5px]">minutes</p>
           </section>
         </div>
-</motion.div>
+        </motion.div>
 
-        <motion.button
-        variants={slideInFromTop}
-        className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly ml-[20px]'>
-        {/* <AiOutlineCoffee className='text-white mr-[10px] h- w-10'/> */}
-        <img src="discord.svg" alt="" className='h-15 w-5  '/>
-        <h1 className='Welcome-text text-[15px] sourcecode '>Join Discord</h1>
-        </motion.button>
-        {/* </motion.div> */}
+          <motion.button 
+          variants={slideInFromTop}
+          className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly ml-[20px]'>
+            <img src="discord.svg" alt="" className='h-15 w-5  '/>
+            <h1 className='Welcome-text text-[15px] sourcecode '>Join Discord</h1>
+          </motion.button>
+
       </div>
       <div className='flex flex-col gap-5'>
         <motion.div 
@@ -108,8 +107,6 @@ const HeroContent = () => {
         className='w-[800px] h-full object-cover'>
             <img src="10001 (2).png" alt="" />
         </motion.div>
-        
-
       </div>
     </motion.div>
   )
