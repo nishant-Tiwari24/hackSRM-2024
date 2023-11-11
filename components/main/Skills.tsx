@@ -14,7 +14,9 @@ const Skills = () => {
       >
         <Skilltext/>
         <div className='flex flex-row justify-center flex-wrap mt-4 gap-5 items-center'>
-          {Frontend_skill.map((image,index) => (
+          {Frontend_skill.map(function createnode(image,index) {
+          
+          return (
               <SkillDataProvider
               key={index}
               width={image.width}
@@ -22,10 +24,13 @@ const Skills = () => {
               src={image.Image}
               index={index}
               />
-          ))}
+          );
+          })}
           </div>
           <div className='flex flex-row justify-center flex-wrap mt-4 gap-5 items-center'>
-          {Backend_skill.map((image,index) => (
+          {Backend_skill.map(function createnode(image,index) {
+            
+            return (
               <SkillDataProvider
               key={index}
               width={image.width}
@@ -33,10 +38,13 @@ const Skills = () => {
               src={image.Image}
               index={index}
               />
-          ))}
+          )
+            })};
           </div>
            <div className='flex flex-row justify-center flex-wrap mt-4 gap-5 items-center'>
-          {Full_stack.map((image,index) => (
+          {Full_stack.map(function createnode(image,index) {
+          
+          return (
               <SkillDataProvider
               key={index}
               width={image.width}
@@ -44,7 +52,9 @@ const Skills = () => {
               src={image.Image}
               index={index}
               />
-          ))}
+          );
+
+          })}
           </div>
           <div className='flex flex-row justify-center flex-wrap mt-4 gap-5 items-center'>
           {Other_skill.map((image,index) => (

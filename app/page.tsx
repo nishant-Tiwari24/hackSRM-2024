@@ -6,6 +6,8 @@ import Starbackground from '@/components/main/Starbackground'
 import StarsCanvas from '@/components/main/Starbackground'
 import Navbar from '@/components/main/Navbar'
 import Skills from '@/components/main/Skills'
+import {VerticalLine} from '@/components/sub/VerticalLine'
+import Theme from '@/components/main/Theme'
 
 export default function Home() {
   return (
@@ -15,6 +17,7 @@ export default function Home() {
        <Hero/>
        <StarsCanvas/>
        <Skills/>
+       <Theme/>
        
       </div>
     
