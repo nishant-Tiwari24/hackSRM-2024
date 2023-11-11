@@ -9,6 +9,8 @@ import Skills from './Skills';
 
 const Hero = () => {
   return (
+    <section
+    id='about-me'>
     <div className='relative h-full w-full flex flex-col'>
         <motion.div variants={slideInFromRight(2)}>
           <video 
@@ -22,9 +24,8 @@ const Hero = () => {
         </video>
         </motion.div>
         <HeroContent/>
-        
-      
     </div>
+    </section>
   )
 }
 

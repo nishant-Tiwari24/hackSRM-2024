@@ -8,6 +8,8 @@ import { VerticalLine } from '../sub/VerticalLine';
 
 const Hero = () => {
   return (
+    <section
+    id='theme'>
     <div className='relative h-full w-full flex flex-col'>
         <motion.div variants={slideInFromRight(2)}>
           <video 
@@ -27,6 +29,7 @@ const Hero = () => {
         
       
     </div>
+    </section>
   )
 }
 
