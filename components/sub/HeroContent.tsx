@@ -71,7 +71,7 @@ const HeroContent = () => {
         className='text-lg text-gray-400 my-5-w-[500px] sourcecode'>
 
         </motion.a>
-        <motion.div className="mt-[-50px] Welcome-text" variants={slideInFromLeft(0.8)}>
+        <motion.div className="mt-[-50px] Welcome-text border border-[#7042f861] mr-[15px] px-[20px] py-[10px] rounded-5 w-[23rem]" variants={slideInFromLeft(0.8)} >
         <h1 className="text-[1.7rem] text-gray-400 ml-3  uppercase">
           Hackathon Starts In
         </h1>
@@ -95,8 +95,8 @@ const HeroContent = () => {
 
           <motion.button 
           variants={slideInFromTop}
-          className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly ml-[20px]'>
-            <img src="discord.svg" alt="" className='h-15 w-5  '/>
+          className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly ml-[55px]'>
+            <img src="discord.svg" alt="" className='h-15 w-7  '/>
             <h1 className='Welcome-text text-[15px] sourcecode '>Join Discord</h1>
           </motion.button>
 

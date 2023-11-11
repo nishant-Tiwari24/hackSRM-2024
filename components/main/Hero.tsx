@@ -1,9 +1,10 @@
 'use client';
 
-import React from 'react'
+import React, { Children } from 'react'
 import HeroContent from '../sub/HeroContent'
 import { motion } from 'framer-motion'
 import { slideInFromRight } from '@/utils/motion';
+import Navbar from './Navbar';
 
 const Hero = () => {
   return (
@@ -15,12 +16,12 @@ const Hero = () => {
         loop 
         autoPlay 
         
-        className='w-full h-full object-cover absolute left-[370px] rotate-90 z-[1]'>
+        className='w-full h-full object-cover absolute left-[370px] rotate-90'>
             <source src="/encryption.webm" type='video/webm'/>
         </video>
         </motion.div>
-      
         <HeroContent/>
+        
       
     </div>
   )
