@@ -17,8 +17,9 @@ export default function Home() {
        <Navbar/>
        <Hero/>
        <StarsCanvas/>
-       <Skills/>
        <Theme/>
+       <Skills/>
+       
        <Prize/>
        
       </div>
