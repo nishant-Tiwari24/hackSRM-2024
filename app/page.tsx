@@ -8,6 +8,7 @@ import Navbar from '@/components/main/Navbar'
 import Skills from '@/components/main/Skills'
 import {VerticalLine} from '@/components/sub/VerticalLine'
 import Theme from '@/components/main/Theme'
+import Prize from '@/components/sub/Prize';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
        <StarsCanvas/>
        <Skills/>
        <Theme/>
+       <Prize/>
        
       </div>
     

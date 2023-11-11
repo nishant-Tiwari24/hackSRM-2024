@@ -16,8 +16,8 @@ const Hero = () => {
         loop 
         autoPlay 
         
-        className='w-[120%] h-full object-contain absolute top-[160px] rotate-180'>
-            <source src="/blackhole.webm" type='video/webm'/>
+        className='w-[120%] h-full object-contain absolute top-[200px] rotate-180'>
+            <source src="/encryption.webm" type='video/webm'/>
         </video>
         </motion.div>
         <br />

@@ -53,18 +53,18 @@ import {motion} from 'framer-motion';
       <section id="about" className="min-h-screen w-full px-0 py-16 md:px-10">
         <motion.div 
         variants={textVariant(1.3)}
-        className="mb-20 text-center text-4xl sm:text-5xl sourcecode bg-clip-text text-transparent bg-gradient-to-b from-white to-[#AAAAAA] uppercase">
+        className="mb-20 text-center text-4xl sm:text-5xl sourcecode bg-clip-text text-transparent Welcome-text uppercase">
           Themes and Prizes
         </motion.div>
         <div
-        className='h-[100px] w-full'></div>
+        className='h-[50px] w-full'></div>
         <motion.div 
         variants={slideInFromLeft(1.3)}
-        className="grid grid-cols-1 gap-10 px-4 md:grid-cols-2 lg:grid-cols-3">
+        className="grid grid-cols-1 gap-10 ml-20 mr-20 px-4 md:grid-cols-2 lg:grid-cols-3 ">
           {themesData.map((theme) => (
             <div
               key={theme.id}
-              className="z-10 flex flex-col items-center justify-evenly space-y-4 rounded-[30px] border border-[#7042f861] bg-gray-950 p-8"
+              className="z-10 flex flex-col items-center justify-evenly space-y-4 rounded-[30px]  border-[#7042f861] bg-gray-950 border p-8"
             >
               <motion.div
               variants={slideInFromLeft(1.3)}
