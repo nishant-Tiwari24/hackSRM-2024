@@ -5,6 +5,7 @@ import HeroContent from '../sub/HeroContent'
 import { motion } from 'framer-motion'
 import { slideInFromRight } from '@/utils/motion';
 import Navbar from './Navbar';
+import Skills from './Skills';
 
 const Hero = () => {
   return (
