@@ -19,7 +19,7 @@ const Hero = () => {
         loop 
         autoPlay 
         
-        className='w-full h-full object-cover absolute top-[-450px] rotate-180 opacity-100'>
+        className='w-full h-full object-cover absolute top-[-450px] rotate-180 opacity-30'>
             <source src="/blackho.webm" type='video/webm'/>
         </video>
         </motion.div>
