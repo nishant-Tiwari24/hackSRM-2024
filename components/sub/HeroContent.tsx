@@ -97,14 +97,14 @@ const HeroContent = () => {
           variants={slideInFromTop}
           className='button-primary py-[8px] px-[4px] border border-[#002df58b] w-60 flex flex-row items-center justify-evenly ml-[62px]'>
             <img src="discord.svg" alt="" className='h-15 w-8   '/>
-            <h1 className='Welcome-text text-[15px] sourcecode '>Join Discord</h1>
+            <a href='https://discord.com/widget?id=1101575465384300737&theme=dark' className='Welcome-text text-[15px] sourcecode '>Join Discord</a>
           </motion.button>
 
       </div>
       <div className='flex flex-col gap-5'>
         <motion.div 
         variants={slideInFromRight(1.2)}
-        className='w-[800px] h-full object-cover'>
+        className='w-[800px] h-full object-cover '>
             <img src="10001 (2).png" alt="" />
         </motion.div>
       </div>
