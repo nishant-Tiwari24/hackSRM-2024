@@ -9,6 +9,7 @@ import {
 
 const Footer = () => {
   return (
+    <section id='contact'>
     <div className='w-full h-full flex flex-col gap-10'>
       <div className="text-center text-4xl sm:text-5xl sourcecode bg-clip-text text-transparent Welcome-text ">
         Contact Us
@@ -33,6 +34,7 @@ const Footer = () => {
         />
       </div>
     </div>
+    </section>
   )
 }
 

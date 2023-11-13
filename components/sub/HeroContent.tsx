@@ -44,7 +44,7 @@ const HeroContent = () => {
   
 
   return (
-    <motion.div initial='hidden' animate='visible' className='grid  mt-[200px] grid-cols-1 ml-20 mr-20 md:grid-cols-2 lg:grid-cols-2'>
+    <motion.div initial='hidden' animate='visible' className='grid  mt-[200px] grid-cols-1 ml-20 mr-20 md:grid-cols-1 lg:grid-cols-2'>
       <div className='h-full w-full flex flex-col gap-5 m-auto text-start'>
         <motion.div 
         variants={slideInFromTop}
