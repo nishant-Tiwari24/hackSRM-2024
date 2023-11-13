@@ -14,7 +14,6 @@ const Hero = () => {
     <div className='relative h-full w-full flex flex-col'>
         <motion.div variants={slideInFromRight(2)}>
           <video 
-        
         muted 
         loop 
         autoPlay 
