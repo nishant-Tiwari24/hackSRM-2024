@@ -10,10 +10,11 @@ import {VerticalLine} from '@/components/sub/VerticalLine'
 import Theme from '@/components/main/Theme'
 import Prize from '@/components/main/Prize';
 import { Questions } from '@/components/main/Questions';
-import Footer from '@/components/main/Footer';
-import Loading from '@/components/main/Loading';
+import Footer from '@/components/sub/Footer';
+import Loading from '@/app/Loading';
 import { Preload } from '@react-three/drei';
 import { Suspense } from 'react';
+import Contact  from '@/components/main/Contact'
 
 export default function Home() {
   return (
@@ -28,7 +29,7 @@ export default function Home() {
         <Skills/>
         <Prize/>
         <Questions/>
-        <Footer/>
+        <Contact/>
        </Suspense>
        
       </div>

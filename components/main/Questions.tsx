@@ -46,13 +46,14 @@ const FAQData = [
 
 export function Questions() {
   return (
-    <section id="#about-me" className="min-h-screen py-4 pt-20">
+    <section id="#questions" className="max-h-screen">
       <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl  bg-clip-text text-transparent Welcome-text sourcecodebold">
         Frequently Asked Questions
       </div>
       <div className="mx-auto px-3">
         <div className="mx-auto flex max-w-2xl font-roboto-mono flex-col space-y-3 rounded-md">
           {FAQData.map((faq) => {
+            
             return (
               <div key={faq.question} className="z-10">
                 <QuestionsAndAnswers key={faq.question} faq={faq} />

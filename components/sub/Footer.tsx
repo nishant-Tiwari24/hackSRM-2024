@@ -1,9 +1,6 @@
 import React from 'react'
 import {
-    IconMail,
-    IconBrandInstagram,
-    IconBrandTwitter,
-    IconBrandLinkedin,
+    IconMail
   } from "@tabler/icons-react";
 
 

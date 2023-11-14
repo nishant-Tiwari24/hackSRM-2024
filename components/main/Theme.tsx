@@ -13,11 +13,9 @@ const Hero = () => {
     <div className='relative h-full w-full flex flex-col'>
         <motion.div variants={slideInFromRight(2)}>
           <video 
-        
         muted 
         loop 
         autoPlay 
-        
         className='w-[120%] h-full object-contain absolute top-[200px] rotate-180'>
             <source src="/encryption.webm" type='video/webm'/>
         </video>
