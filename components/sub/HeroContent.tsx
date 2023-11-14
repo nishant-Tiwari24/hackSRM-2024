@@ -44,7 +44,7 @@ const HeroContent = () => {
   
 
   return (
-    <motion.div initial='hidden' animate='visible' className='grid  mt-[200px] grid-cols-1 ml-20 mr-20 md:grid-cols-1 lg:grid-cols-2'>
+    <motion.div initial='hidden' animate='visible' className='grid  mt-[150px] grid-cols-1 ml-20 mr-20 md:grid-cols-1 lg:grid-cols-2'>
       <div className='h-full w-full flex flex-col gap-5 m-auto text-start'>
         <motion.div 
         variants={slideInFromTop}
@@ -55,7 +55,7 @@ const HeroContent = () => {
 
         <motion.div
         variants={slideInFromLeft(0.5)}
-        className='flex flex-col gap-3 mt-6 text-6xl text-bold-900 text-white max-w-[600px] w-auto h-auto sourcecodebold'
+        className='flex flex-col gap-3 mt-6 text-6xl text-bold-900 text-green-200 max-w-[600px] w-auto h-auto sourcecodebold'
         >Why you need to
         <span className='text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-500 to-cyan-500'>participate in</span>
         in HackSRM?
