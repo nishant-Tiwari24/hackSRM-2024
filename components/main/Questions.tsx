@@ -46,10 +46,10 @@ const FAQData = [
 
 export function Questions() {
   return (
-    <section id="#questions" className="max-h-screen">
-      <div className="mb-20 text-center text-4xl font-semibold sm:text-5xl  bg-clip-text text-transparent Welcome-text sourcecodebold">
+    <section id="questions" className="max-h-screen">
+      <h1 className="mb-20 text-center text-4xl font-semibold sm:text-5xl  bg-clip-text text-transparent Welcome-text sourcecodebold">
         Frequently Asked Questions
-      </div>
+      </h1>
       <div className="mx-auto px-3">
         <div className="mx-auto flex max-w-2xl font-roboto-mono flex-col space-y-3 rounded-md">
           {FAQData.map((faq) => {
@@ -62,6 +62,7 @@ export function Questions() {
           })}
         </div>
       </div>
+
       <div
         className='w-full h-full opacity-30 z-[-30] flex items-center justify-center bg-cover'>
           <video

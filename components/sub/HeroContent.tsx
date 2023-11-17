@@ -15,7 +15,7 @@ const HeroContent = () => {
   let interval = useRef();
   
   const startTimer = () => {
-    const countdownDate = new Date('Jan 17, 2024 00:00:00').getTime();
+    const countdownDate = new Date('Jan 12, 2024 00:00:00').getTime();
   
     interval.current = setInterval(() => {
       const now = new Date().getTime();
