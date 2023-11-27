@@ -26,7 +26,7 @@ const HeroContent = () => {
       const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   
       if (distance <= 0) {
-        clearInterval(interval.current);
+        clearInterval(interval.current as NodeJS.Timeout);
       } else {
         setTimerDays(days);
         setTimerHours(hours);
