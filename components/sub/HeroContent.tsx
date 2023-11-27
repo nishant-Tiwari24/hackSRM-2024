@@ -32,7 +32,7 @@ const HeroContent = () => {
         setTimerHours(hours);
         setTimerMinutes(minutes);
       }
-    }, 1000) as NodeJS.Timeout;
+    }, 1000);
   };
   
   useEffect(() => {
