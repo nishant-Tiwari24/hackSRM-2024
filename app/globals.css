@@ -20,6 +20,10 @@ font-weight: 700;
 
 }
 
+::selection {
+  color: aqua;
+}
+
 .cursive {
   font-family: "Cedarville Cursive", cursive;
 }
