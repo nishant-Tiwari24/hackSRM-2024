@@ -8,39 +8,39 @@ import { useState, useEffect, useRef } from 'react';
 
 const HeroContent = () => {
 
-  const [timerDays, setTimerDays] = React.useState(0);
-  const [timerHours, setTimerHours] = React.useState(0);
-  const [timerMinutes, setTimerMinutes] = React.useState(0);
+  // const [timerDays, setTimerDays] = React.useState(0);
+  // const [timerHours, setTimerHours] = React.useState(0);
+  // const [timerMinutes, setTimerMinutes] = React.useState(0);
   
-  let interval = useRef();
+  // let interval = useRef();
   
-  const startTimer = () => {
-    const countdownDate = new Date('Jan 12, 2024 00:00:00').getTime();
+  // const startTimer = () => {
+  //   const countdownDate = new Date('Jan 12, 2024 00:00:00').getTime();
   
-    interval.current = setInterval(() => {
-      const now = new Date().getTime();
-      const distance = countdownDate - now;
+  //   interval.current = setInterval(() => {
+  //     const now = new Date().getTime();
+  //     const distance = countdownDate - now;
   
-      const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-      const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  //     const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  //     const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  //     const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
   
-      if (distance <= 0) {
-        clearInterval(interval.current);
-      } else {
-        setTimerDays(days);
-        setTimerHours(hours);
-        setTimerMinutes(minutes);
-      }
-    }, 1000);
-  };
+  //     if (distance <= 0) {
+  //       clearInterval(interval.current);
+  //     } else {
+  //       setTimerDays(days);
+  //       setTimerHours(hours);
+  //       setTimerMinutes(minutes);
+  //     }
+  //   }, 1000);
+  // };
   
-  useEffect(() => {
-    startTimer();
-    return () => {
-      clearInterval(interval.current);
-    };
-  }, []);
+  // useEffect(() => {
+  //   startTimer();
+  //   return () => {
+  //     clearInterval(interval.current);
+  //   };
+  // }, []);
   
 
   return (
@@ -73,7 +73,7 @@ const HeroContent = () => {
         className='text-lg text-gray-400 my-5-w-[500px] sourcecode'>
 
         </motion.a>
-        <motion.div className="mt-[-50px] Welcome-text border border-[#7042f861] mr-[15px] px-[20px] py-[10px] rounded-5 w-[23rem]" variants={slideInFromLeft(0.8)} >
+        {/* <motion.div className="mt-[-50px] Welcome-text border border-[#7042f861] mr-[15px] px-[20px] py-[10px] rounded-5 w-[23rem]" variants={slideInFromLeft(0.8)} >
         <h1 className="text-[1.7rem] text-gray-400 ml-3  uppercase">
           Hackathon Starts In
         </h1>
@@ -93,7 +93,7 @@ const HeroContent = () => {
             <p className="text-[1rem] mt-[-5px]">minutes</p>
           </section>
         </div>
-        </motion.div>
+        </motion.div> */}
 
           <motion.button 
           variants={slideInFromTop}
