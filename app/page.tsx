@@ -16,6 +16,8 @@ import { Preload } from '@react-three/drei';
 import { Suspense } from 'react';
 import Contact  from '@/components/main/Contact'
 
+
+
 export default function Home() {
   return (
     
