@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section
     id='theme'>
-    <div className='relative h-full w-full flex flex-col'>
+    <div className='relative h-full w-full flex flex-col top-10'>
         <motion.div variants={slideInFromRight(2)}>
           <video 
         muted 

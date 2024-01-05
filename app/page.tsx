@@ -22,7 +22,7 @@ export default function Home() {
   return (
     
     <main className='h-full w-full'>
-      <div className='flex flex-col h-[1000px] gap-20'>
+      <div className='flex flex-col h-[1100px] gap-20'>
       <Suspense fallback={<Loading/>}>
         <Navbar/>
         <Hero/>
